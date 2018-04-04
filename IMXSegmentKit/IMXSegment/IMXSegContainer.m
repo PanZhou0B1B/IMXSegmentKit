@@ -11,8 +11,8 @@
 #import "IMXSegCollectionView.h"
 #import "IMXSegBaseCell.h"
 #import "IMXSegmentModel.h"
-#import "IMXUIKitExtUtil.h"
-#import <IMXFuncCpt/IMXObjectExtUtil.h>
+#import <IMXExtentCpt/IMXUIKitExtUtil.h>
+#import <IMXExtentCpt/IMXObjectExtUtil.h>
 #define SEGMENTHEADER_H       60   //segmentHeader的默认高度
 @interface IMXSegContainer()<UICollectionViewDelegateFlowLayout,UICollectionViewDataSource,UIScrollViewDelegate>
 @property (nonatomic,strong)UIColor *lineColor;
